@@ -442,3 +442,187 @@ body {
   background: url("../images/bg_common.png") no-repeat;
   background-position: 0px -49px;
 }
+.cs {
+  position: relative;
+  display: block;
+  padding: 60px 0;
+  background: #f8f8f8;
+}
+.cs-inner {
+  position: relative;
+  display: block;
+}
+.cs-link {
+  position: relative;
+  display: block;
+  width: calc(50% - 1px);
+  background-color: rgb(255, 255, 255);
+  height: 200px;
+  padding: 50px 60px;
+}
+.cs-inner > .cs-link:first-child {
+  float: left;
+  background: url("../images/bg_faq.png") no-repeat 90% center;
+  background-color: rgb(255, 255, 255);
+}
+.cs-inner > .cs-link:last-child {
+  float: right;
+  background: url("../images/bg_custom.png") no-repeat;
+  background-position: calc(100% - 50px) 50%;
+  background-color: rgb(255, 255, 255);
+}
+.cs-link h3 {
+  font-size: 30px;
+}
+.cs-link p {
+  position: relative;
+  display: block;
+  margin-top: 30px;
+}
+/* 회사소개 */
+.about {
+  display: block;
+  position: relative;
+  padding: 50px 0;
+}
+.about-inner {
+  position: relative;
+  display: block;
+}
+.about-top {
+  position: relative;
+  display: block;
+  background: url("../images/img_about.png") no-repeat;
+  background-position: 100% 50%;
+  margin-bottom: 80px;
+  height: 370px;
+}
+.about h2 {
+  position: relative;
+  display: block;
+  font-size: 44px;
+  margin-bottom: 40px;
+  color: #111;
+  font-weight: 600;
+  padding-top: 35px;
+  padding-bottom: 55px;
+  text-transform: uppercase;
+}
+.about p {
+  position: relative;
+  display: block;
+  font-size: 15px;
+  padding-left: 100px;
+  padding-bottom: 70px;
+}
+.about p > b {
+  position: relative;
+  display: block;
+  font-size: 21px;
+  margin-bottom: 25px;
+  color: #111;
+  font-weight: 500;
+}
+.about p::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 37px;
+  height: 5px;
+  background-color: #ed1c24;
+  left: 0px;
+  top: 20px;
+}
+.about-bottom {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+.about-list {
+  position: relative;
+  display: inline-block;
+}
+.about-list > li {
+  position: relative;
+  display: block;
+  float: left;
+}
+.about-list > li > a {
+  position: relative;
+  display: block;
+  font-size: 22px;
+  color: #111;
+  font-weight: 500;
+}
+.about-list > li > a::before {
+  content: "";
+  position: relative;
+  display: block;
+  width: 110px;
+  height: 108px;
+  background: url("../images/bg_icon.png") no-repeat;
+  margin-bottom: 25px;
+}
+
+.about-list > li:nth-child(2) {
+  margin: 0 200px;
+}
+.about-list > li:nth-child(1) > a::before {
+  background-position: 0px 0px;
+}
+.about-list > li:nth-child(2) > a::before {
+  background-position: -110px 0px;
+}
+.about-list > li:nth-child(3) > a::before {
+  background-position: -220px 0px;
+}
+
+/* footer */
+.footer {
+  display: block;
+  position: relative;
+  background-color: #4e4e4e;
+}
+.footer-inner {
+  display: block;
+  position: relative;
+  color: #fff;
+  padding: 50px 0;
+}
+.footer-logo > img {
+  width: 128px;
+  height: 23px;
+}
+
+.footer-logo {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 130px;
+}
+
+.footer-info {
+  position: relative;
+  display: block;
+  float: left;
+}
+.footer-list {
+  position: relative;
+  display: block;
+}
+.footer-list > li {
+  position: relative;
+  font-size: 13px;
+  color: #c3c3ce;
+  display: block;
+  margin-bottom: 5px;
+}
+.footer-list > li > address {
+  position: relative;
+  display: block;
+  font-style: normal;
+}
+.footer-list > li > i {
+  position: relative;
+  display: inline-block;
+}
