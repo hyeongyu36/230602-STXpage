@@ -86,8 +86,8 @@ body.active {
   transform: translate(-50%, -50%);
 }
 .modal-logo img {
-  width: 105px;
-  height: 105px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   object-fit: contain;
   position: absolute;
@@ -114,6 +114,10 @@ body.active {
 }
 .modal-close {
   margin-top: 50px;
+  background-color: #d19393;
+  height: 80px;
+  border-radius: 0 0 40px 40px;
+  line-height: 80px;
 }
 /* 레이아웃 */
 .wrap {
